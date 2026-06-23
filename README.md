@@ -1,6 +1,3 @@
-Criei um README com cara de projeto real para o GitHub do seu site 👇
-
-```md
 # 🌌 Thigas Central
 
 ![Thigas Central](https://img.shields.io/badge/Status-Em%20Desenvolvimento-blue)
