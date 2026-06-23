@@ -138,8 +138,3 @@ Criador • Escritor • Desenvolvedor • Arquiteto de Universos
 ---
 
 ⭐ Se gostou do projeto, deixe uma estrela!
-
-```
-
-Esse README combina com o estilo do site e já deixa o repositório com aparência de projeto sério. 👍
-```
