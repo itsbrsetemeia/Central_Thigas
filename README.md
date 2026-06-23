@@ -114,7 +114,7 @@ Você pode encontrar meus projetos e conteúdos em:
 Clone o repositório:
 
 ```bash
-git clone https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git
+(https://itsbrsetemeia.github.io/Central_Thigas/)
 ````
 
 Abra o arquivo:
@@ -140,7 +140,7 @@ no navegador.
 
 ## 👤 Autor
 
-**Thiago Siqueira**
+**Thiago Siqueira Barbosa**
 
 Criador • Escritor • Desenvolvedor • Arquiteto de Universos
 
