@@ -44,3 +44,49 @@ O objetivo é transformar ideias em uma experiência visual moderna e interativa
 
 </div>
 
+
+---
+
+## 🎨 Design
+
+O site utiliza:
+
+- Gradientes personalizados
+- Cards com transparência
+- Efeitos de desfoque
+- Animações de entrada
+- Interface inspirada em tecnologia e criação de universos
+
+---
+
+## 🌌 Universo Vertigma
+
+Dentro da área criativa do site está apresentado o projeto:
+
+**Vertigma**
+
+Um universo de heróis, personagens, mundos e histórias originais.
+
+---
+
+## 🌐 Redes
+
+Você pode encontrar meus projetos e conteúdos em:
+
+- GitHub
+- TikTok
+- Discord
+- Instagram
+- Pinterest
+- Spotify
+- Reddit
+- Snapchat
+
+---
+
+## 🚀 Como executar
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git
