@@ -114,12 +114,6 @@ Clone o repositório:
 (https://itsbrsetemeia.github.io/Central_Thigas/)
 ````
 
-Abra o arquivo:
-
-```
-index.html
-```
-
 no navegador.
 
 ---
