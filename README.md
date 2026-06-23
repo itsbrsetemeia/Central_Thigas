@@ -1,3 +1,6 @@
+Criei um README com cara de projeto real para o GitHub do seu site 👇
+
+```md
 # 🌌 Thigas Central
 
 ![Thigas Central](https://img.shields.io/badge/Status-Em%20Desenvolvimento-blue)
@@ -44,6 +47,28 @@ O objetivo é transformar ideias em uma experiência visual moderna e interativa
 
 </div>
 
+---
+
+## 📂 Estrutura do projeto
+
+```
+
+Thigas-Central
+│
+├── index.html
+│
+├── css
+│   └── style.css
+│
+├── js
+│   └── script.js
+│
+├── imagens
+│   └── foto.jpg
+│
+└── README.md
+
+````
 
 ---
 
@@ -90,3 +115,40 @@ Clone o repositório:
 
 ```bash
 git clone https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git
+````
+
+Abra o arquivo:
+
+```
+index.html
+```
+
+no navegador.
+
+---
+
+## 📈 Futuras melhorias
+
+* [ ] Sistema de temas
+* [ ] Mais animações
+* [ ] Área de projetos detalhada
+* [ ] Blog pessoal
+* [ ] Integração com backend
+* [ ] Página dedicada ao universo Vertigma
+
+---
+
+## 👤 Autor
+
+**Thiago Siqueira**
+
+Criador • Escritor • Desenvolvedor • Arquiteto de Universos
+
+---
+
+⭐ Se gostou do projeto, deixe uma estrela!
+
+```
+
+Esse README combina com o estilo do site e já deixa o repositório com aparência de projeto sério. 👍
+```
