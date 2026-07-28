@@ -1,164 +1,260 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Thigas Central</title>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thigas Central</title>
+  <meta name="description" content="Portfólio de Thiago Siqueira — Criador, Escritor, Desenvolvedor e Arquiteto de Universos. Universo Vertigma e projetos digitais." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="style.css" />
-
-    <!-- Font Awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-    />
-  </head>
-
-  <body>
-    <!-- ================= NAVBAR ================= -->
-    <nav>
-      <div class="logo">Thigas</div>
+  <!-- NAVBAR -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#" class="logo">T<span class="logo-h"><svg width="18" height="24" viewBox="0 0 18 24" fill="none"><line x1="3" y1="24" x2="3" y2="2" stroke="#c8a84e" stroke-width="2"/><line x1="3" y1="12" x2="15" y2="12" stroke="#c8a84e" stroke-width="2"/><line x1="15" y1="24" x2="15" y2="12" stroke="#c8a84e" stroke-width="2"/><circle cx="9" cy="4" r="1.5" fill="#e8c547" opacity="0.8"/></svg></span>gas</a>
       <div class="nav-links">
         <a href="#sobre">Sobre</a>
         <a href="#universo">Universo</a>
         <a href="#projetos">Projetos</a>
         <a href="#redes">Redes</a>
       </div>
-    </nav>
+      <button class="nav-toggle" aria-label="Menu">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+    </div>
+    <div class="nav-mobile">
+      <a href="#sobre">Sobre</a>
+      <a href="#universo">Universo</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#redes">Redes</a>
+    </div>
+  </nav>
 
-    <!-- ================= HERO ================= -->
-    <section class="hero">
-      <div class="hero-content">
-        <div class="hero-text">
-          <h1>
-            Thiago <span class="gold">Siqueira</span>
-          </h1>
-          <p class="subtitle">Criador • Escritor • Desenvolvedor • Arquiteto de Universos</p>
-        </div>
-
-        <div class="hero-image">
-          <img src="img/foto.jpeg" alt="Thiago" />
-        </div>
-      </div>
-    </section>
-
-    <!-- ================= SOBRE ================= -->
-    <section id="sobre">
-      <div class="card">
-        <h2>Sobre mim</h2>
-        <p>
-          Sou Thiago, criador de histórias, universos e projetos digitais.<br />
-          <br />
-          Construindo ideias e transformando imaginação em realidade.
-        </p>
-      </div>
-
-      <div id="universo" class="card universe">
-        <h3>Vertigma</h3>
-        <p class="quote">"Cada universo possui uma história. Cada herói carrega um destino."</p>
-      </div>
-    </section>
-
-    <!-- ================= PROJETOS ================= -->
-    <section id="projetos">
-      <h2 class="title">Projetos</h2>
-
-      <div class="grid">
-        <div class="card project">
-          <i class="fa-solid fa-globe"></i>
-          <h3>Vertigma</h3>
-          <p>Universo de heróis.</p>
-        </div>
-
-        <div class="card project">
-          <i class="fa-solid fa-code"></i>
-          <h3>Desenvolvimento</h3>
-          <p>Sites e sistemas.</p>
-        </div>
-
-        <div class="card project">
-          <i class="fa-solid fa-book"></i>
-          <h3>Escrita</h3>
-          <p>Histórias e mundos.</p>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-gold-line"></div>
+    <div class="container hero-content">
+      <div class="hero-text">
+        <p class="hero-sub">Arquiteto de Universos</p>
+        <h1 class="hero-title">Thiago<br><span>Siqueira</span></h1>
+        <p class="hero-desc">Criador <span class="dot">·</span> Escritor <span class="dot">·</span> Desenvolvedor <span class="dot">·</span> Arquiteto de Universos</p>
+        <div class="hero-cta">
+          <a href="#sobre" class="btn-outline">Explorar <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 7h8M8 4l3 3-3 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></a>
+          <a href="#projetos" class="btn-text">Ver projetos</a>
         </div>
       </div>
-    </section>
-
-    <!-- ================= REDES ================= -->
-    <section id="redes">
-      <h2 class="title">Minhas Redes</h2>
-
-      <div class="social-grid">
-        <a class="social-icon" href="https://github.com/itsbrsetemeia" target="_blank">
-          <i class="fa-brands fa-github"></i>
-          GitHub
-        </a>
-
-        <a class="social-icon" href="https://www.tiktok.com/@thigasvzn1" target="_blank">
-          <i class="fa-brands fa-tiktok"></i>
-          TikTok
-        </a>
-
-        <a
-          class="social-icon"
-          href="https://discordapp.com/users/875491678235017316"
-          target="_blank"
-        >
-          <i class="fa-brands fa-discord"></i>
-          Discord
-        </a>
-
-        <a
-          class="social-icon"
-          href="https://www.instagram.com/itsbrsetemeia"
-          target="_blank"
-        >
-          <i class="fa-brands fa-instagram"></i>
-          Instagram
-        </a>
-
-        <a class="social-icon" href="https://pin.it/1cAQ9pFY7" target="_blank">
-          <i class="fa-brands fa-pinterest"></i>
-          Pinterest
-        </a>
-
-        <a
-          class="social-icon"
-          href="https://open.spotify.com/user/31lip33wuhvi43k4ppa27blzcony"
-          target="_blank"
-        >
-          <i class="fa-brands fa-spotify"></i>
-          Spotify
-        </a>
-
-        <a class="social-icon" href="https://www.reddit.com/user/Future_Factor8894" target="_blank">
-          <i class="fa-brands fa-reddit"></i>
-          Reddit
-        </a>
-
-        <a class="social-icon" href="https://www.snapchat.com/add/itsbrsetemeia" target="_blank">
-          <i class="fa-brands fa-snapchat"></i>
-          Snapchat
-        </a>
+      <div class="hero-photo">
+        <div class="photo-frame">
+          <div class="photo-frame-inner"></div>
+          <div class="photo-corner tl"></div>
+          <div class="photo-corner br"></div>
+          <div class="photo-wrap">
+            <img src="img/foto.jpeg" alt="Thiago Siqueira" />
+          </div>
+          <p class="photo-caption">São Paulo, BR — 2026</p>
+        </div>
       </div>
-    </section>
+    </div>
+    <div class="scroll-indicator">
+      <div class="scroll-dot"></div>
+    </div>
+  </section>
 
-    <!-- ================= MÚSICA ================= -->
-    <section id="musica">
-      <h2 class="title">Minha Atmosfera Sonora 🎧</h2>
-
-      <div class="card spotify">
-        <iframe
-          src="https://open.spotify.com/embed/playlist/37i9dQZF1F5p3rmiWPIYgZ?utm_source=generator&theme=0"
-          width="100%"
-          height="500"
-          frameborder="0"
-        ></iframe>
+  <!-- SOBRE -->
+  <section id="sobre" class="section-about">
+    <div class="container">
+      <div class="editorial-grid">
+        <div class="editorial-left">
+          <span class="section-number">01</span>
+          <div class="section-line"></div>
+          <p class="section-label">Quem Sou</p>
+        </div>
+        <div class="editorial-right">
+          <h2 class="section-title">Criador de histórias,<br><span>universos e projetos</span><br>digitais.</h2>
+          <div class="section-body">
+            <p>Sou Thiago. Cada linha de código é um novo universo, cada palavra escrita é uma porta para mundos que ainda não existem.</p>
+            <p>Do desenvolvimento web à criação de narrativas épicas, meu trabalho vive na intersecção entre tecnologia e ficção — construindo ideias e transformando imaginação em realidade.</p>
+          </div>
+          <div class="gold-divider"></div>
+          <div class="skills-row">
+            <div class="skill-item"><div class="skill-line"></div><p class="skill-title">Desenvolvimento</p><p class="skill-desc">Sites e aplicações</p></div>
+            <div class="skill-item"><div class="skill-line"></div><p class="skill-title">Escrita</p><p class="skill-desc">Histórias e mundos</p></div>
+            <div class="skill-item"><div class="skill-line"></div><p class="skill-title">Universo</p><p class="skill-desc">Heróis e destinos</p></div>
+          </div>
+        </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <footer>Thiago Central © 2026</footer>
-  </body>
+  <!-- UNIVERSO -->
+  <section id="universo" class="section-universe">
+    <div class="universe-bg"></div>
+    <div class="container">
+      <div class="editorial-grid">
+        <div class="editorial-right">
+          <h2 class="section-title">Universo<br><span class="serif-italic">Vertigma</span></h2>
+          <div class="section-body">
+            <p>Um universo de heróis, personagens, organizações e cosmologia original. Mundos que se conectam, destinos que se cruzam.</p>
+          </div>
+          <blockquote class="section-quote">
+            <div class="quote-line"></div>
+            <p>"Cada universo possui uma história.<br>Cada herói carrega um destino."</p>
+          </blockquote>
+        </div>
+        <div class="editorial-left right-align">
+          <span class="section-number">02</span>
+          <div class="section-line"></div>
+          <p class="section-label">Cosmologia</p>
+        </div>
+      </div>
+      <div class="universe-art-wrap">
+        <div class="art-line-top"></div>
+        <div class="universe-art">
+          <div class="art-overlay"></div>
+        </div>
+        <div class="art-caption-row">
+          <p>Universo Vertigma — Cosmologia Original</p>
+          <div class="art-line-end"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJETOS -->
+  <section id="projetos" class="section-projects">
+    <div class="container">
+      <div class="editorial-grid">
+        <div class="editorial-left">
+          <span class="section-number">03</span>
+          <div class="section-line"></div>
+          <p class="section-label">Trabalhos</p>
+        </div>
+        <div class="editorial-right">
+          <h2 class="section-title">Pro<span>jetos</span></h2>
+          <p class="section-sub">Tecnologia, criatividade e narrativa. Cada projeto é uma peça de um universo maior.</p>
+          <div class="project-list">
+            <a href="#universo" class="project-item">
+              <div class="project-info">
+                <div class="project-header">
+                  <div class="project-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></div>
+                  <h3>Vertigma</h3>
+                </div>
+                <p>Universo de heróis, personagens, organizações e cosmologia original.</p>
+              </div>
+              <span class="project-arrow"><svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M3 6h6M7 4l2 2-2 2" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg></span>
+            </a>
+            <a href="https://github.com/itsbrsetemeia" target="_blank" rel="noopener" class="project-item">
+              <div class="project-info">
+                <div class="project-header">
+                  <div class="project-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></div>
+                  <h3>Desenvolvimento</h3>
+                </div>
+                <p>Sites, aplicações web e sistemas construídos com tecnologia moderna.</p>
+              </div>
+              <span class="project-arrow"><svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M3 9l6-6M6 3h3v3" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg></span>
+            </a>
+            <a href="#universo" class="project-item">
+              <div class="project-info">
+                <div class="project-header">
+                  <div class="project-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></div>
+                  <h3>Escrita</h3>
+                </div>
+                <p>Histórias, narrativas e construção de mundos ficcionais.</p>
+              </div>
+              <span class="project-arrow"><svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M3 6h6M7 4l2 2-2 2" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg></span>
+            </a>
+          </div>
+          <div class="gold-divider"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REDES -->
+  <section id="redes" class="section-social">
+    <div class="container">
+      <div class="editorial-grid">
+        <div class="editorial-left">
+          <span class="section-number">04</span>
+          <div class="section-line"></div>
+          <p class="section-label">Conexões</p>
+        </div>
+        <div class="editorial-right">
+          <h2 class="section-title">Minhas<br><span>Redes</span></h2>
+          <p class="section-sub">Conecte-se comigo através das plataformas onde compartilho projetos, ideias e conteúdos.</p>
+          <div class="social-grid">
+            <a href="https://github.com/itsbrsetemeia" target="_blank" rel="noopener" class="social-item">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+              <span>GitHub</span>
+            </a>
+            <a href="https://www.tiktok.com/@thigasvzn1" target="_blank" rel="noopener" class="social-item">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1v-3.5a6.37 6.37 0 00-.79-.05A6.34 6.34 0 003.15 15.2a6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.34-6.34V8.71a8.17 8.17 0 004.76 1.52v-3.4a4.85 4.85 0 01-1-.14z"/></svg>
+              <span>TikTok</span>
+            </a>
+            <a href="https://discordapp.com/users/875491678235017316" target="_blank" rel="noopener" class="social-item">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.317 4.37a19.79 19.79 0 00-4.885-1.515.074.074 0 00-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 00-5.487 0 12.64 12.64 0 00-.617-1.25.077.077 0 00-.079-.037A19.74 19.74 0 003.677 4.37a.07.07 0 00-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 00.031.057 19.9 19.9 0 005.993 3.03.078.078 0 00.084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 00-.041-.106 13.107 13.107 0 01-1.872-.892.077.077 0 01-.008-.128 10.2 10.2 0 00.372-.292.074.074 0 01.077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 01.078.01c.12.098.246.198.373.292a.077.077 0 01-.006.127 12.299 12.299 0 01-1.873.892.077.077 0 00-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 00.084.028 19.84 19.84 0 006.002-3.03.077.077 0 00.032-.054c.5-5.177-.838-9.674-3.549-13.66a.06.06 0 00-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/></svg>
+              <span>Discord</span>
+            </a>
+            <a href="https://www.instagram.com/itsbrsetemeia" target="_blank" rel="noopener" class="social-item">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+              <span>Instagram</span>
+            </a>
+            <a href="https://pin.it/1cAQ9pFY7" target="_blank" rel="noopener" class="social-item">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.372 0 12c0 5.084 3.163 9.426 7.627 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738a.36.36 0 01.083.345l-.333 1.36c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.889-2.436-4.649 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.359-.631-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24 12 24c6.627 0 12-5.373 12-12 0-6.628-5.373-12-12-12z"/></svg>
+              <span>Pinterest</span>
+            </a>
+            <a href="https://open.spotify.com/user/31lip33wuhvi43k4ppa27blzcony" target="_blank" rel="noopener" class="social-item">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/></svg>
+              <span>Spotify</span>
+            </a>
+            <a href="https://www.reddit.com/user/Future_Factor8894" target="_blank" rel="noopener" class="social-item">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0zm5.01 4.744c.688 0 1.25.561 1.25 1.249a1.25 1.25 0 0 1-2.498.056l-2.597-.547-.8 3.747c1.824.07 3.48.632 4.674 1.488.308-.309.73-.491 1.207-.491.968 0 1.754.786 1.754 1.754 0 .716-.435 1.333-1.01 1.614a3.111 3.111 0 0 1 .042.52c0 2.694-3.13 4.87-7.004 4.87-3.874 0-7.004-2.176-7.004-4.87 0-.183.015-.366.043-.534A1.748 1.748 0 0 1 4.028 12c0-.968.786-1.754 1.754-1.754.463 0 .898.196 1.207.49 1.207-.883 2.878-1.43 4.744-1.487l.885-4.182a.342.342 0 0 1 .14-.197.35.35 0 0 1 .238-.042l2.906.617a1.214 1.214 0 0 1 1.108-.701zM9.25 12C8.561 12 8 12.562 8 13.25c0 .687.561 1.248 1.25 1.248.687 0 1.248-.561 1.248-1.249 0-.688-.561-1.249-1.249-1.249zm5.5 0c-.687 0-1.248.561-1.248 1.25 0 .687.561 1.248 1.249 1.248.688 0 1.249-.561 1.249-1.249 0-.687-.562-1.249-1.25-1.249zm-5.466 3.99a.327.327 0 0 0-.231.094.33.33 0 0 0 0 .463c.842.842 2.484.913 2.961.913.477 0 2.105-.056 2.961-.913a.361.361 0 0 0 .029-.463.33.33 0 0 0-.464 0c-.547.533-1.684.73-2.512.73-.828 0-1.979-.196-2.512-.73a.326.326 0 0 0-.232-.095z"/></svg>
+              <span>Reddit</span>
+            </a>
+            <a href="https://www.snapchat.com/add/itsbrsetemeia" target="_blank" rel="noopener" class="social-item">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.206.793c.99 0 4.347.276 5.93 3.821.529 1.193.403 3.219.299 4.847l-.003.06c-.012.18-.022.345-.03.51.075.045.203.105.344.165.585.24 1.394.57 1.574 1.094.12.36.015.75-.329 1.17-.196.24-.45.465-.705.69-.35.315-.705.63-.945.96-.27.375-.54 1.14-.06 2.73.255.84.18 2.055-.915 3.09-1.26 1.185-3.51 1.8-5.625 1.8-.885 0-1.71-.135-2.37-.375-.825-.285-1.515-.765-1.935-1.335-.51-.69-.66-1.485-.45-2.37.12-.495.285-1.005.45-1.5.165-.495.33-.99.435-1.47.09-.405.06-.735-.075-.975-.225-.42-.63-.78-1.035-1.14-.255-.225-.51-.45-.72-.69-.285-.315-.51-.63-.66-.96-.165-.36-.225-.72-.165-1.08.105-.63.78-1.02 1.665-1.38.15-.06.285-.12.375-.18v-.03c-.06-1.29-.105-3.345.375-4.605C7.291 1.038 10.648.793 11.638.793h.568z"/></svg>
+              <span>Snapchat</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MÚSICA -->
+  <section id="musica" class="section-music">
+    <div class="container">
+      <div class="editorial-grid">
+        <div class="editorial-left">
+          <span class="section-number">05</span>
+          <div class="section-line"></div>
+          <p class="section-label">Atmosfera</p>
+        </div>
+        <div class="editorial-right">
+          <h2 class="section-title">Atmosfera<br><span class="serif-italic">Sonora</span></h2>
+          <p class="section-sub">A trilha sonora do processo criativo. Sons que inspiram histórias e universos.</p>
+          <div class="spotify-wrap">
+            <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1F5p3rmiWPIYgZ?utm_source=generator&theme=0" width="100%" height="352" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-inner">
+      <p class="footer-brand">Thigas</p>
+      <div class="footer-line"></div>
+      <p class="footer-copy">Thiago Central &copy; 2026</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
 </html>
-
